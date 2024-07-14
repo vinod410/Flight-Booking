@@ -1,0 +1,56 @@
+{% extends 'flight/layout.html' %}
+
+{% load static %}
+
+{% block head %}
+    <title>Terms and Conditions | Flight</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/privacy-policy.css' %}">
+{% endblock head %}
+
+{% block body %}
+    <section class="privacybanner-section">
+            <img src="{% static 'img/terms-and-conditions.png' %}" alt="Privacy Policy" class="privacybannerimg">
+    </section>
+    <section class="section section1">
+        <div class="container">
+            <h2>Website Ownership and Use Agreement</h2>
+            <p>
+                The travel site is maintained by Flight Inc. It is an IATA certified travel company existing compliant with the laws of the Republic of India. By accessing or using this site or using any of its services, you agree to the terms and conditions mentioned below, including any supplementary guidelines and future modifications.
+            </p>
+        
+            <h2>Changes to Terms and Conditions</h2>
+            <p>
+                Flight may change, alter, or remove any part of these Terms and Conditions without any prior notice. Any changes made to these Terms and Conditions of Use will be applicable the moment they are posted on the site. You need to re-check the “Terms & Conditions” link to be fully aware of the entire scenario.
+            </p>
+        
+            <h2>1. Agreement between the Clients & Flight</h2>
+            <p>
+                While accessing, using, browsing, or making bookings through flight-web-app.herokuapp.com, users have to accept that they agree to the terms and conditions of our portal. In case of any violation, Flight Planners Ltd. and its subsidiaries (including flight-web-app.herokuapp.com) reserve all the rights to take any legal actions against them.
+            </p>
+        
+            <h2>2. Prices on the Website</h2>
+            <p>
+                Service Charge, Cancellation Charge, and Reschedule Charge are inclusive of GST. The price we offer on flight-web-app.herokuapp.com generally includes accommodation charges, taxes (unless specified otherwise), and in special cases some meals (Breakfast /Lunch / Dinner). It never comprises any personal expense or other additional charges like telephone calls, personal-man services, entrance fees of any monuments, and bar charges, etc.
+            </p>
+        
+            <h2>3. Mode of Payments & Policies</h2>
+            <p>
+                Our payment gateway is completely secure and customers can make online payments through a safe transaction process that ensures their personal security codes will not be revealed in any circumstances.
+            </p>
+        
+            <h2>4. Use of the Website</h2>
+            <p><strong>In case of your use of this website, you agree that:</strong></p>
+            <ul>
+                <li>You have the legal authority to create an obligatory legal requirement and enter into these Terms of Use.</li>
+                <li>You will use this site as per its Terms of Use.</li>
+                <li>You will use the website only to make lawful bookings for yourself or other persons for whom you are officially approved to do these kinds of bookings. You will also inform other persons about the Terms and Conditions of the website.</li>
+                <li>You will provide accurate information about every official document and other important details like name and DOB to the site in case of planning a trip with it.</li>
+                <li>In case of any error or mistake in the process of information, you will be solely responsible for the same.</li>
+                <li>All information provided by you to this site should be accurate, updated, and complete.</li>
+                <li>If you have an account on this site, you are advised to secure it with your login details, including login ID and password. You will be entirely responsible for any use or misuse of your account.</li>
+                <li>Flight reserves the right to deny access to its Website to anyone, at any time without any notice and for any reason, including, but not restricted to, for the violation of its Terms of Use.</li>
+            </ul>
+        </div>
+        
+    </section>
+{% endblock%}
